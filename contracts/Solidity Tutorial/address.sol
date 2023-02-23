@@ -2,6 +2,7 @@
 pragma solidity ^0.8.17;
 
 contract LearningDataType{
+    //address holds the 20 byte value representing the size of an Ethereum address
     address x=0x5d69095b2a0E4d13a8393D6C252E38a24D8017ee;
     function getBalance() public view returns (uint){
         return x.balance;
