@@ -15,5 +15,6 @@ contract SolidityTest{
         uint b =2;
         uint result= a + b;
         return result;
+
     }
 }
